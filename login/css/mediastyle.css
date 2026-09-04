@@ -1,0 +1,70 @@
+@media (max-width:768px) {
+    #log-in-page {
+        padding: 20px 15px;
+    }
+
+    #process {
+        padding: 3px 10px;
+        font-size: smaller;
+        font-weight: 500;
+        margin: 0 0 8px 0;
+    }
+
+    #process-description {
+        font-size: medium;
+        margin-bottom: 12px;
+    }
+
+    .form-item {
+        margin-bottom: 12px;
+    }
+
+    .log-in-label {
+        font-size: smaller;
+    }
+
+    input {
+        height: 27px;
+        padding: 8px;
+        font-size: medium;
+    }
+
+    .form-item p {
+        font-size: 9px;
+        margin-bottom: 3px;
+    }
+
+    #log-in-button {
+        width: 100%;
+        height: 37px;
+        font-size: large;
+    }
+
+    footer {
+        padding: 25px 20px 15px 20px;
+        margin-top: 15px;
+    }
+
+    .developer-detail {
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    #dark-mode-button {
+        width: 35px;
+        height: 35px;
+        margin: 15px 15px 0 0;
+        font-size: smaller;
+    }
+
+    .welcome {
+        font-size: 50px;
+        text-shadow: 10px 10px 10px var(--down-shadow);
+        letter-spacing: 3.5mm;
+    }
+
+    .welcome::first-letter {
+        color: var(--special-color);
+        font-size: 80px;
+    }
+}

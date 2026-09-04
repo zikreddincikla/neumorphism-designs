@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Login | Zikreddin</title>
+    <meta name="theme-color" content="#18c895">
+    <meta name="author" content="Zikreddin">
+    <meta name="keywords" content="Login, Neumorphism">
+    <meta name="description" content="This is a Login project built using HTML, CSS, and JS technologies">
+
+    <meta name="twitter:title" content="Neumorphism Login | Zikreddin">
+    <meta name="twitter:description" content="This is a Login project built using HTML, CSS, and JS technologies">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="Neumorphism Login | Zikreddin">
+    <meta property="og:description" content="This is a Login project built using HTML, CSS, and JS technologies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zikreddincikla.github.io/neumorphism-login/">
+    <link rel="icon" href="Image/icon.ico" type="image/x-ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/darkstyle.css">
+    <link rel="stylesheet" href="css/mediastyle.css">
+</head>
+
+<body>
+    <header id="menu">
+        <button id="dark-mode-button" aria-label="Dark mode button">🌙</button>
+    </header>
+    <div id="container">
+        <h2 class="welcome">WELCOME</h2>
+        <main>
+            <div id="log-in-page" class="shadow">
+                <header>
+                    <h2 id="process">Login</h2>
+                    <p id="process-description">Log in with your account details</p>
+                </header>
+                <form action="#" method="post" id="log-in-form" onsubmit="event.preventDefault();">
+                    <div class="form-item">
+                        <label for="log-in-name" class="log-in-label">User Name:</label>
+                        <input type="text" id="log-in-name" name="name" autocomplete="nickname"
+                            placeholder="Enter Username" enterkeyhint="next" inputmode="text" maxlength="25"
+                            minlength="3" required>
+                        <p class="name-warning">Must be between 3 and 25 characters</p>
+                        <p>Forget <a href="#">Username</a>?</p>
+                    </div>
+                    <div class="form-item">
+                        <label for="log-in-password" class="log-in-label">User Password:</label>
+                        <input type="password" id="log-in-password" name="password" autocomplete="current-password"
+                            placeholder="Enter Password" enterkeyhint="go" maxlength="25" minlength="3" required>
+                        <p class="password-warning">Must be between 3 and 25 characters.</p>
+                        <p>Forget <a href="#">Password</a>?</p>
+                    </div>
+                    <button id="log-in-button" type="submit" class="shadow">Log In</button>
+                </form>
+            </div>
+        </main>
+        <footer class="shadow">
+            <p>&copy;2026 Zikreddin | All Rights Reserved</p>
+            <address>
+                <a class="developer-detail" href="https://github.com/zikreddincikla" target="_blank"
+                    translate="no">Github</a>
+                <a class="developer-detail"
+                    href="https://www.linkedin.com/in/zikreddin-%C3%A7%C4%B1klasa%C4%9F%C4%B1rc%C4%B1o%C4%9Flu-64667a395/"
+                    target="_blank" translate="no">LinkedIn</a>
+                <a class="developer-detail" href="mailto:zikreddin@gmail.com" target="_blank">E-Mail</a>
+            </address>
+        </footer>
+    </div>
+
+    <script src="script/darkscript.js" defer></script>
+    <script src="script/script.js" defer></script>
+</body>
+
+</html>

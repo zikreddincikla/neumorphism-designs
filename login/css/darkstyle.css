@@ -1,0 +1,112 @@
+:root {
+    --special-color: #18c895;
+    --dark-background-color: #303030;
+    --dark-down-shadow: #252525;
+    --dark-up-shadow: #353535;
+}
+
+.dark-body {
+    background-color: var(--dark-background-color);
+    color: #ffffff;
+}
+
+.dark-log-in-page {
+    background-color: var(--dark-background-color) !important;
+    color: #ffffff;
+    box-shadow:
+        15px 15px 20px var(--dark-down-shadow),
+        -15px -15px 20px var(--dark-up-shadow) !important;
+}
+
+.dark-log-in-page p {
+    color: #b0b0b0;
+}
+
+.dark-log-in-page p a {
+    color: var(--special-color);
+}
+
+.dark-log-in-label {
+    color: whitesmoke;
+}
+
+.dark-input {
+    background-color: var(--dark-background-color) !important;
+    color: #ffffff;
+    box-shadow:
+        inset 5px 5px 20px var(--dark-down-shadow),
+        inset -5px -5px 20px var(--dark-up-shadow) !important;
+}
+
+.dark-input:focus {
+    box-shadow:
+        inset 5px 5px 20px var(--dark-down-shadow),
+        inset -5px -5px 20px var(--dark-up-shadow),
+        0 0 5px var(--special-color) !important;
+}
+
+.dark-mode-button-dark {
+    background-color: var(--dark-background-color) !important;
+    box-shadow:
+        5px 5px 10px var(--dark-down-shadow),
+        -5px -5px 10px var(--dark-up-shadow) !important;
+}
+
+.dark-mode-button-dark:active {
+    box-shadow:
+        inset 5px 5px 10px var(--dark-down-shadow),
+        inset -5px -5px 10px var(--dark-up-shadow) !important;
+}
+
+.dark-process {
+    box-shadow:
+        5px 5px 10px var(--dark-down-shadow),
+        -5px -5px 10px var(--dark-up-shadow) !important;
+}
+
+.dark-log-in-button {
+    color: var(--dark-background-color);
+    box-shadow:
+        15px 15px 20px var(--dark-down-shadow),
+        -15px -15px 20px var(--dark-up-shadow) !important;
+}
+
+.dark-log-in-button:active {
+    box-shadow:
+        inset 10px 10px 20px var(--dark-down-shadow),
+        inset -15px -15px 20px #1ce7ae !important;
+}
+
+.dark-footer {
+    background-color: var(--dark-background-color) !important;
+    box-shadow:
+        15px 15px 20px var(--dark-down-shadow),
+        -15px -15px 20px var(--dark-up-shadow) !important;
+}
+
+.dark-developer-detail {
+    background-color: var(--dark-background-color) !important;
+    color: whitesmoke !important;
+    box-shadow:
+        10px 10px 20px var(--dark-down-shadow),
+        -10px -10px 20px var(--dark-up-shadow) !important;
+}
+
+.dark-developer-detail:active {
+    box-shadow:
+        inset 10px 10px 20px var(--dark-down-shadow),
+        inset -10px -10px 20px var(--dark-up-shadow) !important;
+}
+
+.dark-welcome {
+    font-size: 70px;
+    text-shadow: 10px 10px 10px var(--dark-down-shadow) !important;
+}
+
+.dark-warning-shadow,
+.dark-warning-shadow:focus {
+    box-shadow:
+        inset 5px 5px 20px var(--dark-down-shadow),
+        inset -5px -5px 20px var(--dark-up-shadow),
+        0 0 5px red !important;
+}
