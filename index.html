@@ -3,12 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Neumorphism Designs</title>
+    <style>
+        :root{
+            --special-color:#18c895;
+        }
+        ::selection{
+            background-color: var(--special-color);
+            color: whitesmoke;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: var(--special-color);
+            font-size: 30px;
+            border:5px solid var(--special-color);
+            padding: 10px;
+            border-radius: 15px;
+            transition: 0.3s ease;
+        }
+        a:hover{
+            background-color: var(--special-color);
+            color: whitesmoke;
+        }
+        h1{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Neumorphism Tasarımları</h1>
+    <h1>Neumorphism Designs</h1>
     <ul>
-        <li><a href="./login/">Login Sayfası</a></li>
-        <li><a href="./Dashboard/">Dashboard Sayfası</a></li>
+        <li><a href="./login/">Login Page</a></li>
+        <li><a href="./Dashboard/">Dashboard Page</a></li>
     </ul>
 </body>
 </html>
