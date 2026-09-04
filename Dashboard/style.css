@@ -1,0 +1,23 @@
+:root{
+    --special-color:#18c895;
+
+}
+::selection{
+    background-color: var(--special-color);
+    color: whitesmoke;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
