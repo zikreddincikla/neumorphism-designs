@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Neumorphism Designs</title>
+</head>
+<body>
+    <h1>Neumorphism Tasarımları</h1>
+    <ul>
+        <li><a href="./login/">Login Sayfası</a></li>
+        <li><a href="./Dashboard/">Dashboard Sayfası</a></li>
+    </ul>
+</body>
+</html>
