@@ -1,6 +1,5 @@
 :root{
     --special-color:#18c895;
-
 }
 ::selection{
     background-color: var(--special-color);
@@ -11,11 +10,16 @@
     padding: 0;
     margin: 0;
 }
-html,body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+    grid-template-areas: "header" "main" "footer";
+    height: 100vh;
+}
+main{
+    margin: 15px auto;
+    width: 800px
 }
 #container{
     display: grid;

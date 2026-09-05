@@ -1,0 +1,20 @@
+@media (max-width:768px) {
+    body {
+        background-color: black;
+    }
+    #container{
+        grid-template-columns: 1fr;
+    }
+    #heading,main {
+        margin: 12px;
+        padding: 15px;
+        min-width: 400px;
+    }
+
+    #header-hgroup h1,
+    #header-hgroup p {
+        font-size: 15px;
+        padding: 3px;
+    }
+
+}

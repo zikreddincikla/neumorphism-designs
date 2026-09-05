@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Detail | Zikreddin</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/product-info.css">
+    <link rel="stylesheet" href="css/product-media.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <header id="heading">
-        <hgroup>
+        <hgroup id="header-hgroup">
             <h1>Admin Panel</h1>
             <p>Product Details</p>
         </hgroup>
@@ -21,16 +27,16 @@
             <section class="product-info">
                 <header>
                     <h3 id="product-name">AuraSound Apex Pro</h3>
-                    <p id="product-category">Product Category</p>
+                    <p id="product-category"><strong>Category:</strong> Headphones</p>
                 </header>
 
                 <dl id="product-stock-price">
                     <div>
-                        <dt>Stock</dt>
+                        <dt><strong>Stock:</strong></dt>
                         <dd>14 left</dd>
                     </div>
                     <div>
-                        <dt>Price</dt>
+                        <dt><strong>Price:</strong></dt>
                         <dd>$109.99</dd>
                     </div>
                 </dl>
@@ -42,22 +48,27 @@
                             <strong>Active Noise Cancellation (ANC):</strong>
                             45 dB deep noise cancellation with Transparency Mode support.
                         </li>
+                        <br>
                         <li>
                             <strong>Driver:</strong>
                             40 mm titanium-coated dynamic drivers for ultra-clear trebles and deep bass.
                         </li>
+                        <br>
                         <li>
                             <strong>Battery Life:</strong>
                             Up to 50 hours with ANC off, 35 hours with ANC on.
                         </li>
+                        <br>
                         <li>
                             <strong>Fast Charging:</strong>
                             10 minutes of charging provides 4 hours of playback time.
                         </li>
+                        <br>
                         <li>
                             <strong>Connectivity:</strong>
                             Bluetooth 5.4 technology with Multipoint support (connect to two devices simultaneously).
                         </li>
+                        <br>
                         <li>
                             <strong>Weight:</strong>
                             230g lightweight design with memory foam ear cushions.
@@ -68,24 +79,23 @@
 
             <section class="product-media">
                 <figure>
-                    <img src="image/headphones.png" alt="AuraSound Apex Pro Wireless Headphones"
-                        title="AuraSound Apex Pro Wireless Headphones">
+                    <img src="image/headphones-Photoroom.png" alt="AuraSound Apex Pro Wireless Headphones" title="AuraSound Apex Pro Wireless Headphones">
                 </figure>
 
                 <section class="product-actions">
-                    <button>Show Product</button>
+                    <button id="show-button" command="show-modal" commandfor="product-show">Show Product</button>
 
                     <dl class="product-stats">
                         <div>
-                            <dt>Add to Cart Count</dt>
+                            <dt><strong>Add-to-Cart Count:</strong></dt>
                             <dd>10</dd>
                         </div>
                         <div>
-                            <dt>Favorite Count</dt>
+                            <dt><strong>Favorite Count:</strong></dt>
                             <dd>154</dd>
                         </div>
                         <div>
-                            <dt>Sales Count</dt>
+                            <dt><strong>Sales Count:</strong></dt>
                             <dd>24</dd>
                         </div>
                     </dl>
@@ -96,16 +106,14 @@
 
     <footer>
         <p>&copy; 2026 Zikreddin | All Rights Reserved</p>
+
         <address id="developer-details">
-            <a translate="no" class="developer-detail-item" href="https://github.com/zikreddincikla" target="_blank"
-                rel="noopener noreferrer">Github</a>
-            <a translate="no" class="developer-detail-item"
-                href="https://www.linkedin.com/in/zikreddin-%C3%A7%C4%B1klasa%C4%9F%C4%B1rc%C4%B1o%C4%9Flu-64667a395/"
-                target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a translate="no" class="developer-detail-item" href="https://github.com/zikreddincikla" target="_blank"rel="noopener noreferrer">Github</a>
+            <a translate="no" class="developer-detail-item"href="https://www.linkedin.com/in/zikreddin-%C3%A7%C4%B1klasa%C4%9F%C4%B1rc%C4%B1o%C4%9Flu-64667a395/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a class="developer-detail-item" href="mailto:zikreddinckl@gmail.com">E-Mail</a>
         </address>
     </footer>
-
+    <dialog id="product-show"><button command="close" commandfor="product-show">KAPAT</button></dialog>
     <script src="script.js"></script>
 </body>
 
